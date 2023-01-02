@@ -1,20 +1,3 @@
-<script>
-function download(filename, text) {
-  var element = document.createElement('a');
-  element.setAttribute('href', 'data:text/plain;charset=utf-8,' + encodeURIComponent(text));
-  element.setAttribute('download', filename);
-
-  element.style.display = 'none';
-  document.body.appendChild(element);
-
-  element.click();
-
-  document.body.removeChild(element);
-}
-var text = "this goofy guy"
-var filename = "thisdood.txt";
-    
-download(filename, text);
-wait(3)
-window.location.href = 'https://github.com/theentirescriptofshreck/sloppiest-website/blob/main/index.html';
-</script>
+<a href=”/yourlogodownladimage.png” download>
+</a><a href=”/iframe.html” download=”MyLogo”></a>
+<a href="https://scratch.mit.edu/users/gatorswag4079/" style="color: navy;">back</a>
